@@ -53,7 +53,7 @@ if (!menuList || !gerichtSelect || !orderForm || !messageBox) {
       return;
     }
 
-    const scriptUrl = "https://script.google.com/macros/s/AKfycbytCnkbDRffQGvDDGQkkoZ6ZVGauIj0CiIMCmXZlru_GlOxsf66xwuc8jS3SBBI3SUKBA/exec";
+    const scriptUrl = "https://script.google.com/macros/s/AKfycbxJQR0nSh39yx8ALzUFX-hcimW1vl-6RT9gFD6HsjBjhlOttylG_v-PXWKA89SNWSIKxw/exec";
 
     try {
       const response = await fetch(scriptUrl, {
