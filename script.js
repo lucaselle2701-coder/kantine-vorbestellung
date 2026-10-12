@@ -50,7 +50,7 @@ orderForm.addEventListener("submit", async function (event) {
     return;
   }
 
-  const scriptUrl = "https://script.google.com/macros/s/AKfycbytCnkbDRffQGvDDGQkkoZ6ZVGauIj0CiIMCmXZlru_GlOxsf66xwuc8jS3SBBI3SUKBA/exec";
+  const scriptUrl = "https://script.google.com/macros/s/AKfycby_q3-FwurW9eQ9LQKQC3I_-WCoCqNZQQrdXP9ATdYJ4rkJuJmJ3yZ68cWhJ2XeQN-VJQ/exec";
 
   try {
     await fetch(scriptUrl, {
