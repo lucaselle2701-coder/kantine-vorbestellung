@@ -44,7 +44,7 @@ orderForm.addEventListener("submit", async function (event) {
   };
 
   // Hier eure Apps-Script-Web-App-URL eintragen
-  const scriptUrl = "https://script.google.com/macros/s/AKfycbytCnkbDRffQGvDDGQkkoZ6ZVGauIj0CiIMCmXZlru_GlOxsf66xwuc8jS3SBBI3SUKBA/exec";
+  const scriptUrl = "https://script.google.com/macros/s/AKfycbzP3YzmzV8_l9TQ5uhP0PTvupoInkhvHwvAGr9_qn08xrCoS-pqOqZk-z2F71gkivp9JA/exec";
 
   try {
     const response = await fetch(scriptUrl, {
