@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kantine Vorbestellung</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Hochschule Kempten – Kantinenvorbestellung</h1>
+  </header>
+
+  <main class="container">
+    <section class="menu-section">
+      <h2>Heutiges Menü</h2>
+      <div id="menuList" class="menu-list"></div>
+    </section>
+
+    <section class="order-section">
+      <h2>Vorbestellen</h2>
+
+      <form id="orderForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Ihr Name" required />
+
+        <label for="matrikel">Matrikelnummer:</label>
+        <input type="text" id="matrikel" name="matrikel" placeholder="z. B. 1234567" required />
+
+        <label for="gericht">Gericht wählen:</label>
+        <select id="gericht" name="gericht" required>
+          <option value="">Bitte wählen</option>
+        </select>
+
+        <label for="zusatz">Zusatz / Beilage:</label>
+        <input type="text" id="zusatz" name="zusatz" placeholder="z. B. Pommes, Salat, ohne Sauce" />
+
+        <label for="notiz">Notiz:</label>
+        <textarea id="notiz" name="notiz" rows="4" placeholder="z. B. vegetarisch, extra klein..."></textarea>
+
+        <button type="submit">Bestellung senden</button>
+      </form>
+
+      <p id="message" class="message"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
