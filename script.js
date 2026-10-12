@@ -49,6 +49,7 @@ orderForm.addEventListener("submit", async function (event) {
   try {
     const response = await fetch(scriptUrl, {
       method: "POST",
+      mode: "cors",
       headers: {
         "Content-Type": "application/json"
       },
